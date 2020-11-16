@@ -1,0 +1,37 @@
+ .cart{ 
+  padding: 20px;
+  position: relative;
+  background: white;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  right: 0;
+  width: 30%;
+  min-width: 500px;
+  bottom: 0;
+  transform: translateX(100%);
+  transition: all 0.3s;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
+  z-index: 5;
+ }
+ .cart-open {
+    transform: translateX(0);
+ }
+
+  .cart-header {
+    border-bottom: 5px solid black;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+  }
+
+
+  .remove {
+    color: grey;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+ div.row {
+   margin-bottom: 3px;
+ }
+

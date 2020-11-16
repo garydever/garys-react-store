@@ -1,0 +1,29 @@
+.quantity-picker {
+    display: flex;
+    margin-top: none;
+ }
+
+.qtyBtn, .quantity-number {
+    display: inline;
+}
+
+.quantity-number {
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    width: 35px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.product-image {
+    width: 100%;
+}
+
+.product-price {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.qtyLabel {
+    margin-bottom: 3px;
+}

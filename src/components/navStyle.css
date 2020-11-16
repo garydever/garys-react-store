@@ -1,0 +1,13 @@
+.navCart {
+    cursor: pointer;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
+.navbar-header {
+    max-width: 463px;
+}
+
+.store-logo {
+    color: black;
+}
