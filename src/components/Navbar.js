@@ -10,8 +10,6 @@ class Navbar extends Component {
     }
 
     render() {
-        console.log("HERE's THECART");
-        console.log(this.props.cart);
         
         let totalCost = 0;
         let totalItems = 0;

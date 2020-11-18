@@ -11,7 +11,6 @@ const initialState = {
     let products = state.products;
     switch(action.type) {
         case 'GET_PRODUCT':
-            console.log("GET PRODUCT CALLED")
             const newProduct = products.find(p => p.id == action.payload.productId);
             return {
                 ...state,
